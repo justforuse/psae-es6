@@ -80,5 +80,12 @@ var res = {
     }
 }
 console.log(res.data.data.successCount);
-var {data: {data: {successCount: myCount}}} = res;
-console.log(myCount);
+var {
+    data: {
+        data: {
+            successCount: mySuccessCount,
+            errorCount: myErrorCount
+        }
+    }
+} = res;
+console.log(mySuccessCount, myErrorCount);
