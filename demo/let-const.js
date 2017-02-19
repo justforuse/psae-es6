@@ -28,9 +28,9 @@
 
 
 // demo3 暂时性死区
-// a3="abc";
-// console.log(a3);
-// let a3;
+a3="abc";
+console.log(a3);
+let a3;
 
 // if(1){
 //     a3 = 123;
@@ -43,10 +43,3 @@
 // let a4 = 456;
 // console.log(a4);
 
-{
-  let _nested = 'secret'
-  function nested () {
-    return _nested
-  }
-}
-console.log(nested())
