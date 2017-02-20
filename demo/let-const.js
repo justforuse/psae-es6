@@ -1,4 +1,4 @@
-// demo1
+// 块级作用域
 // let a = "a";
 // function func() {
 //     let a = "aa";
@@ -15,6 +15,13 @@
 // var aaa a
 // let aa a
 
+// 块级作用域
+// let a = "outside";
+// {
+//     let a = "inside";
+// }
+// console.log(a);
+
 // demo2
 // var a = [];
 // for (var i = 0; i < 3; i++) {
@@ -28,9 +35,9 @@
 
 
 // demo3 暂时性死区
-a3="abc";
-console.log(a3);
-let a3;
+// a3="abc";
+// console.log(a3);
+// let a3;
 
 // if(1){
 //     a3 = 123;
@@ -38,8 +45,14 @@ let a3;
 //     let a3;
 // }
 
-// demo4
+// 不允许重复声明
 // var a4 = 123;
 // let a4 = 456;
 // console.log(a4);
+
+// const
+// const PI = 3;
+
+
+
 

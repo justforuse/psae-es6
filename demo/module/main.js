@@ -14,5 +14,5 @@
 // console.log(m1.name);
 
 // export default
-import n from './export-default';
-console.log(n);
+import age from './export-default';
+console.log(age);
