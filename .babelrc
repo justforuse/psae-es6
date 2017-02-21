@@ -2,6 +2,6 @@
 	"presets":["es2015"],
 	// ignore this options
 	"plugins": [
-		["transform-es2015-block-scoping", { "tdz": true }]
+		// ["transform-es2015-block-scoping", { "tdz": true }]
 	]
 }
